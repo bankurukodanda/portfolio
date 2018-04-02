@@ -290,10 +290,16 @@ p.description{
   text-decoration: none;
 }
 
-.resume-link, .resume-link:hover, .resume-link:visited{
-  color: #7DCEA0;
+.load-more button a{
+  color: #ffffff;
   text-decoration: none;
 }
+.load-more button:hover{
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #3CB371;
+}
+
 /*-------------------------------------------------------
  14. Contact style
 -------------------------------------------------------*/
@@ -349,6 +355,7 @@ p.description{
   text-transform: uppercase;
   border:none;
 }
+
 /*----------------------------------------
  6. Section title style
 -----------------------------------------*/
@@ -384,6 +391,7 @@ background: #353131c7;
   border-radius: 50%;
   margin: 0 5px;
   transition: all .3s ease;
+  text-decoration: none;
 }
 .social-links a:hover{
   opacity: .7s;
@@ -398,6 +406,7 @@ background: #353131c7;
     height: 70px;
     border-radius: 50%;
     width: 70px;
+    line-height: 70px;
     border: 3px solid #7DCEA0;
 }
 .social-links a.facebook {
@@ -425,4 +434,10 @@ background: #353131c7;
 section{
 	padding-top: 70px;
 	padding-bottom: 70px;
+}
+.info-table td{
+  padding: 0px 16px;
+}
+.social-links.mt25.about-icons{
+  padding: 10px 0px;
 }
