@@ -226,6 +226,7 @@ body {
     }
     .main-timeline .timeline-content:before{ left: -7.3px; }
     .main-timeline .timeline-content:after{ left: -14%; }
+    .bksak-hidden-sm{ display: none }
 }
 h6.job-title {
     font-size: 15px;
@@ -440,4 +441,7 @@ section{
 }
 .social-links.mt25.about-icons{
   padding: 10px 0px;
+}
+.bksak-hide{
+  display: none;
 }
