@@ -62,7 +62,13 @@ body {
  /* -----------------------------------------
   10. Resume style
 -------------------------------------------- */
-
+.about-image img{
+  height: 77vh;
+  
+}
+.about-image {
+  text-align: -webkit-center;
+}
 .main-timeline{
     overflow: hidden;
     position: relative;
@@ -271,6 +277,9 @@ body, html {
 @media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2, .bgimg-3 {
         background-attachment: scroll;
+    }
+    .about-image img{
+      display: none;
     }
 }/*
 a{
